@@ -1,0 +1,22 @@
+# Зависимости (никогда не переносятся и не пушатся в репозиторий)
+node_modules
+_base_modules/
+
+# Сборки (генерируются командами npm run build)
+dist/
+dist-ssr/
+*.local
+
+# Логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Настройки редакторов и ОС
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
